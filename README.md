@@ -14,7 +14,7 @@ This README provides an overview of this feature, including a description of the
 
 ## Task Schema Definition
 
-Provided below are several examples of clinically-meaningful tasks where ESGPT Task Querying would be able to extract subject cohorts for.  
+Provided below are several examples of clinically-meaningful tasks that ESGPT Task Querying could easily extract subject cohorts for:
 
 ![Task Schema Definition](./TaskSchemaDefinition.svg)
 
