@@ -88,6 +88,8 @@ A tree structure is constructed based on the windows defined in the configuratio
 
 `query_subtree()` is recursively called to query each subtree in the tree structure in a depth-first manner. The function first summarizes the temporal- or event-bound window defined at each node by calling `summarize_window()`, and joins results from nodes in the subtree.
 
-## Acknowledgement
+## Acknowledgements
+
+**Matthew McDermott**, PhD | *Harvard Medical School*
 
 For any questions, enhancements, or issues, please file a GitHub issue. For inquiries regarding Event Stream GPT, please refer to the ESGPT repository. Contributions are welcome via pull requests.
