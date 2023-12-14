@@ -1,14 +1,16 @@
-# ESGPT Task Querying - Coming Soon
+# ESGPT Task Querying - Coming Soon...
 
 ![](https://img.shields.io/badge/python-3.10-blue)
 
-## Introduction
+## Background
 
 Event Stream GPT (ESGPT) is a library that streamlines the development of generative, pre-trained transformers (i.e., foundation models) over event stream datasets, such as Electronic Health Records (EHR). ESGPT is designed to extract, preprocess, and manage these datasets efficiently, providing a Huggingface-compatible modeling API and introducing critical capabilities for representing complex intra-event causal dependencies and measuring zero-shot performance. For more detailed information, please refer to the ESGPT GitHub repository: [ESGPT GitHub Repo](https://github.com/esgpt).
 
-A feature of ESGPT is the ability to query EHR datasets for valid subjects, guided by various constraints and requirements defined in a YAML configuration file. 
+A feature of ESGPT is the ability to query EHR datasets for valid subjects, guided by various constraints and requirements defined in a YAML configuration file. This streamlines the process of extracting task-specific cohorts from large time-series datasets, offering a powerful and user-friendly solution to researchers and developers. The use of a human-readable YAML configuration file also eliminates the need for users to be proficient in complex dataframe querying, making the querying process accessible to a broader audience.
 
-This README provides an overview of this feature, including a description of the YAML configuration file's fields, an outline of the algorithm, and instructions for use.
+There are diverse applications in healthcare and beyond. For instance, researchers can effortlessly define subsets of EHR datasets for training of foundational models. Retrospective analyses can also become more accessible to clinicians as it enables the extraction of tailored cohorts for studying specific medical conditions or population demographics.
+
+This README provides an overview of this feature, including a description of the YAML configuration file's fields, an outline of the algorithm, and instructions for use (coming soon).
 
 ## Task Schema Definition
 
@@ -22,10 +24,7 @@ This README provides an overview of this feature, including a description of the
 
 ## Instructions for Use
 
-1. **Prepare the YAML Configuration File**: Define your predicates and windows according to your research needs. Please see below for details regarding the configuration language.
-2. **Load ESGPT Task Querying**: Set-up and import ESGPT Task Querying into your environment.
-3. **Run the Query**: Use ESGPT Task Querying with your YAML file to query the dataset (ESD).
-4. **Results**: The output will be a dataframe of subjects who satisfy the conditions defined in your YAML file. Timestamps for an edge of each window specified in the YAML, as well as predicate counts for each window, are also provided.
+Coming Soon...
 
 ## YAML Configuration File
 
